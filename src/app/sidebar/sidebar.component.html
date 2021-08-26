@@ -7,7 +7,7 @@
       
         <nb-list >
         <nb-list-item class="m-0  p-0" nbInfiniteList *ngFor="let entity of entities" >
-            <a  class="items ml-lg-1 ml-md-1 ml-sm-2 mt-2 mb-1 p-1 " routerLink ="entity/{{entity.id}}"  routerLinkActive="active"> <nb-icon class="mr-2" icon="archive-outline"></nb-icon> <p class="d-sm-none d-lg-inline d-md-inline items"> {{ entity.name }}</p> </a>
+            <a  class="items ml-lg-1 ml-md-1 ml-sm-2 mt-2 mb-1 p-1 " routerLink ="entity/{{entity.id}}"  routerLinkActive="active"> <nb-icon class="mr-2" icon="archive-outline"></nb-icon> <p class="d-sm-none d-none d-lg-inline d-md-inline items"> {{ entity.name }}</p> </a>
         </nb-list-item>
     </nb-list>
     </div>
